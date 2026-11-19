@@ -30,6 +30,10 @@
     "model_test": 0.6740274269054782
   },
   "test_improvement_pct": 6.665469481414544,
+  "range_80": {
+    "test_coverage": 0.7328990228013029,
+    "mean_width": 1.7667088465989769
+  },
   "gate": {
     "margin": 0.05,
     "decision": "SHIP"

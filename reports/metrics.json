@@ -1,0 +1,37 @@
+{
+  "model_version": "v2",
+  "splits": {
+    "train": {
+      "rows": 2863,
+      "start": "2017-03-10 03:00:00",
+      "end": "2017-07-20 18:00:00"
+    },
+    "val": {
+      "rows": 614,
+      "start": "2017-07-20 19:00:00",
+      "end": "2017-08-15 08:00:00"
+    },
+    "test": {
+      "rows": 614,
+      "start": "2017-08-15 09:00:00",
+      "end": "2017-09-09 22:00:00"
+    }
+  },
+  "n_features": 67,
+  "best_params": {
+    "learning_rate": 0.03,
+    "max_leaf_nodes": 31,
+    "max_iter": 200
+  },
+  "mae": {
+    "baseline_val": 0.646058299408469,
+    "model_val": 0.5840050496530388,
+    "baseline_test": 0.7221629799394137,
+    "model_test": 0.6740274269054782
+  },
+  "test_improvement_pct": 6.665469481414544,
+  "gate": {
+    "margin": 0.05,
+    "decision": "SHIP"
+  }
+}
